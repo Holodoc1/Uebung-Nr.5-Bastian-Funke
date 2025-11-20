@@ -20,8 +20,9 @@ public class H3_Main {
 		System.out.println();
 		System.out.print("Anzahl:             |");
 		int j;
+		String stringScheine;
 		for(i = 0; i < einheiten[1].length; i++) {
-			String stringScheine = Integer.toString(einheiten[0][i]);
+			stringScheine = Integer.toString(einheiten[0][i]);
 			for(j = 0; j < stringScheine.length() - 1; j++) {
 				System.out.print(" ");
 			}
