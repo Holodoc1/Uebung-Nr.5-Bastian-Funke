@@ -11,9 +11,9 @@ public class H1_Main {
 			myArray[i] = myArray[myArray.length - 1 - i];
 			myArray[myArray.length - 1 - i] = temp;			
 		}
-		System.out.print("myArray: " + myArray[0]);
+		System.out.print("myArray: |");
 		for(i = 1; i < myArray.length; i++) {
-			System.out.print("|" + myArray[i]);
+			System.out.print(myArray[i] + "|");
 		}
 	}
 	

@@ -22,9 +22,9 @@ public class H2_Main {
 		
 		System.out.println("n: " + n);
 		System.out.println("Ziffern: " + digits);
-		System.out.print("a: " + a[0]);
+		System.out.print("a: |");
 		for(i = 1; i < a.length; i++) {
-			System.out.print("|" + a[i]);
+			System.out.print(a[i] + "|");
 		}
 	}
 	
