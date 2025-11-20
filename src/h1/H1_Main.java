@@ -12,7 +12,7 @@ public class H1_Main {
 			myArray[myArray.length - 1 - i] = temp;			
 		}
 		System.out.print("myArray: |");
-		for(i = 1; i < myArray.length; i++) {
+		for(i = 0; i < myArray.length; i++) {
 			System.out.print(myArray[i] + "|");
 		}
 	}
